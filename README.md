@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+📱 Pokédex App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido com React Native + Expo, que consome a API pública do Pokémon para listar, visualizar detalhes e evoluções de cada Pokémon.
 
-## Get started
+🚀 Funcionalidades
+🔍 Listagem de Pokémons
+📄 Visualização de detalhes (peso, altura)
+🧬 Cadeia de evoluções
+🖼️ Imagens oficiais dos Pokémons
+📱 Modal interativo para exibição de detalhes
+⚡ Consumo de API em tempo real
+🛠️ Tecnologias utilizadas
+React Native
+Expo
+TypeScript
+Axios
+React Native Modal
+Expo Router
+📦 Instalação
 
-1. Install dependencies
+Clone o repositório:
 
-   ```bash
-   npm install
-   ```
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-2. Start the app
+Acesse a pasta do projeto:
 
-   ```bash
-   npx expo start
-   ```
+cd seu-repositorio
 
-In the output, you'll find options to open the app in a
+Instale as dependências:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+npm install
+▶️ Executando o projeto
+npx expo start
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Depois disso, você pode:
 
-## Get a fresh project
+📱 Rodar no emulador Android/iOS
+📲 Escanear o QR Code com o app do Expo Go
+🌐 API utilizada
+https://pokeapi.co/
 
-When you're ready, run:
+🎯 Aprendizados
 
-```bash
-npm run reset-project
-```
+Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Consumo de APIs REST
+Gerenciamento de estado com hooks
+Componentização
+Manipulação de listas com FlatList
+Uso de modais
+Tratamento de erros e loading
