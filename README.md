@@ -9,6 +9,8 @@ Aplicativo mobile desenvolvido com React Native + Expo, que consome a API públi
 🖼️ Imagens oficiais dos Pokémons
 📱 Modal interativo para exibição de detalhes
 ⚡ Consumo de API em tempo real
+
+
 🛠️ Tecnologias utilizadas
 React Native
 Expo
@@ -16,26 +18,17 @@ TypeScript
 Axios
 React Native Modal
 Expo Router
-📦 Instalação
 
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-Acesse a pasta do projeto:
-
-cd seu-repositorio
-
-Instale as dependências:
-
-npm install
 ▶️ Executando o projeto
 npx expo start
+
 
 Depois disso, você pode:
 
 📱 Rodar no emulador Android/iOS
 📲 Escanear o QR Code com o app do Expo Go
+
+
 🌐 API utilizada
 https://pokeapi.co/
 
